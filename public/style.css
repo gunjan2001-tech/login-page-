@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Heebo:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+   
+   width: 25%;
+
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+
+}
+
+.container h1 {
+    font-family: "Dancing Script", cursive;
+    display: inline-block;
+    font-size: 30px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+    padding: 13px 0px;
+    text-align: center;
+}
+
+.box {
+   
+    width: 50%;
+    border-bottom: 2px solid purple;
+    margin: 22px 0px ;
+
+}
+
+.box input {
+    background: none;
+    width: 75%;
+    padding: 5px 10px ;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+
+
+}
+.box i{
+   
+    width: 25px;
+    text-align: center;
+}
+.btn{
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    font-size: 18px ;
+    background: none;
+    font-weight: bold;
+    font-family: "Dancing Script", cursive;
+
+}
+.btn:hover{
+    color: purple;
+    background: white;
+    opacity: 0.5;
+}
+
+/* Base styles (already included above) */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .container {
+        width: 60%;
+        max-width: 600px;
+    }
+
+    .container h1 {
+        font-size: 32px;
+    }
+
+    .box input {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .container {
+        width: 40%;
+        max-width: 800px;
+    }
+
+    .container h1 {
+        font-size: 36px;
+    }
+
+    .box input {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+}
+
+/* Extra-large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        width: 30%;
+        max-width: 1000px;
+    }
+
+    .container h1 {
+        font-size: 40px;
+    }
+
+    .box input {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 20px;
+        padding: 18px 36px;
+    }
+}
+
+
+/* Media Queries for different devices */
+
+/* Phones and small screens */
+@media (max-width: 576px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .container h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .box {
+        margin: 10px 0;
+    }
+
+    .box input {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+/* Tablets and larger phones */
+@media (min-width: 577px) and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    .container h1 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .box input {
+        font-size: 15px;
+        padding: 9px;
+    }
+
+    .btn {
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+
+/* Medium devices (tablets and small desktops) */
+@media (min-width: 769px) and (max-width: 992px) {
+    .container {
+        width: 70%;
+    }
+
+    .container h1 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .box input {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 993px) {
+    .container {
+        width: 50%;
+    }
+
+    .container h1 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .box input {
+        font-size: 17px;
+        padding: 12px;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 14px;
+    }
+}
